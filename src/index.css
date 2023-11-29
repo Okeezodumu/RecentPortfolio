@@ -1,0 +1,21 @@
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer base {
+    @font-face {
+      font-family: 'Poppins';
+      src: url('/Poppins-Medium.ttf');
+    }
+  }
+
+body{
+    background-image: url(../Vector\ 6.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+  
+}
+font{
+    color:rgb(207, 204, 204);
+}
