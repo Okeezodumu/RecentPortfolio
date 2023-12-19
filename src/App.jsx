@@ -78,7 +78,7 @@ const App = () => {
       <h1 className='lg:text-6xl p-5 md:text-xl text-black text-center whitespace-20'>Projects</h1>
 
 
-      <Carousel className='saturate-150 h-2xl w-full shadow-xl shadow-black  rounded-2xl' responsive={responsive}>
+      <Carousel infinite={true} autoPlay={this !== "mobile" ? true : false} className='saturate-150 h-2xl w-full shadow-xl shadow-black  rounded-2xl' responsive={responsive}>
 
         <div className='mx-5 shadow-xl shadow-blue'><img src="/Bookme1.jpg" alt="" /></div>
         <div className='mx-5 shadow-xl shadow-blue'><img src="/Bookme2.jpg" alt="" /></div>
