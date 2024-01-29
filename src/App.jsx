@@ -7,7 +7,7 @@ const responsive = {
     // the naming can be any, depends on you.
     breakpoint: { max: 4000, min: 1024 },
     items: 3,
-    slidesToSlide:2,
+    slidesToSlide: 2,
   },
   desktop: {
     breakpoint: { max: 1024, min: 800 },
@@ -39,18 +39,18 @@ const App = () => {
         <a href="https://www.linkedin.com/in/odumu-okopi-370354245?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BKzgrLHKASrm5tJ%2FJlqU%2FMQ%3D%3D"><img className='w-10 ' src="/linkedin.svg" alt="" /></a>
         <a href="https://github.com/Okeezodumu"><img className='w-10 ' src="/github.svg" alt="" /></a>
         <a href="https://twitter.com/okeezdupi2"><img className='w-10 ' src="/x-social-media-logo-icon.svg" alt="" /></a>
-    <a href="https://drive.google.com/file/d/1lg-p571BR3nrWMQRmT-Q15e8EcUOYGHU/view?usp=drive_link"><button className='bg-black text-white shadow-xl shadow-gray-dark lg:p-5 md: p-2 rounded-xl  hover:bg-gray-dark'>Download my CV</button></a> 
+        <a href="https://drive.google.com/file/d/1lg-p571BR3nrWMQRmT-Q15e8EcUOYGHU/view?usp=drive_link"><button className='bg-black text-white shadow-xl shadow-gray-dark lg:p-5 md: p-2 rounded-xl  hover:bg-gray-dark'>Download my CV</button></a>
       </div>
-      
+
       <section className='flex-col p-2  m-auto'>
-       <div className=''>
-        <h1 className='text-black lg:text-5xl  md: text-2xl text-center m-3' >About Me</h1>
-        <h2 className='text-gray lg:text-3xl text-center md: text-1xl text-bold  leading-relaxed italic'>I am a creative Frontend developer with zeal for uniqueness,efficiency and innovation. I am a team player with an eye for beauty and functionality. </h2>
-       </div>
-        
-      <div className='flex justify-center p-5 ' >
-        <img className='lg:w-1/2 md: w-2/3   m-2 grayscale' src="/HEZ_8694-removebg.png" alt="" />
-      </div>
+        <div className=''>
+          <h1 className='text-black lg:text-5xl  md: text-2xl text-center m-3' >About Me</h1>
+          <h2 className='text-gray lg:text-3xl text-center md: text-1xl text-bold  leading-relaxed italic'>I am a creative Frontend developer with zeal for uniqueness,efficiency and innovation. I am a team player with an eye for beauty and functionality. </h2>
+        </div>
+
+        <div className='flex justify-center p-5 ' >
+          <img className='lg:w-1/2 md: w-2/3   m-2 grayscale' src="/HEZ_8694-removebg.png" alt="" />
+        </div>
       </section>
       <section className='flex-col m-5 mx-20'>
         <img className=' lg:hidden md: visible h-32 m-auto saturate-200' src="/Group (2).png" alt="" />
@@ -79,15 +79,18 @@ const App = () => {
 
 
       <Carousel infinite={true} autoPlay={this !== "mobile" ? true : false} className='saturate-150 h-2xl w-full shadow-xl shadow-black  rounded-2xl' responsive={responsive}>
-
+        <div className='mx-5 shadow-xl shadow-purple'><img src="/SharedScreenshot.jpg" alt="" /></div>
+        <div className='mx-5 shadow-xl shadow-purple'><img src="/SharedScreenshot2.jpg" alt="" /></div>
+        <div className='mx-5 shadow-xl shadow-purple'><img src="/SharedScreenshot1.jpg" alt="" /></div>
+        <div className='mx-5 shadow-xl shadow-purple'><img src="/SharedScreenshot3.jpg" alt="" /></div>
         <div className='mx-5 shadow-xl shadow-blue'><img src="/Bookme1.jpg" alt="" /></div>
         <div className='mx-5 shadow-xl shadow-blue'><img src="/Bookme2.jpg" alt="" /></div>
         <div className='mx-5 shadow-xl shadow-blue'><img src="/Bookme3.jpg" alt="" /></div>
-        <div className='mx-5 shadow-xl shadow-green'><img src="/Brill1.jpg"  alt="" /></div>
-        <div className='mx-5 shadow-xl shadow-green'><img src="/Brill2.jpg"  alt="" /></div>
+        <div className='mx-5 shadow-xl shadow-green'><img src="/Brill1.jpg" alt="" /></div>
+        <div className='mx-5 shadow-xl shadow-green'><img src="/Brill2.jpg" alt="" /></div>
         <div className='mx-5 shadow-xl shadow-green'><img src="/Brill3.jpg" alt="" /></div>
-        <div className='mx-5 shadow-xl shadow-pink'><img src="/cruise1.jpg"  alt="" /></div>
-        <div className='mx-5 shadow-xl shadow-pink'><img src="/cruise2.jpg"  alt="" /></div>
+        <div className='mx-5 shadow-xl shadow-pink'><img src="/cruise1.jpg" alt="" /></div>
+        <div className='mx-5 shadow-xl shadow-pink'><img src="/cruise2.jpg" alt="" /></div>
         <div className='mx-5 shadow-xl shadow-pink'><img src="/cruise3.jpg" alt="" /></div>
       </Carousel>;
     </div>
