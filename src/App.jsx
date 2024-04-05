@@ -29,7 +29,7 @@ const App = () => {
   return ( 
     <div className='container m-auto'>
 
-      <section className='lg:flex-col  md:mx-20 float-left p-4 rounded-full  bg-black shadow-black shadow-xl m-10  animate-bounce ' >
+      <section className='lg:flex-col  md:mx-20 float-left p-4 rounded-2xl  bg-black shadow-black shadow-xl m-10  animate-bounce ' >
         <h2 className=' text-white font-bold lg: text-2xl md: text-xl text-center '> Okopi <font>Johnson</font> Odumu</h2>
         <h1 className=' text-white text-center lg:text-5xl md: text-xl text-center font-bold '><font>Soft</font>ware <font>Dev</font>eloper and <font> Eng</font>ineer</h1>
         <p className='text-white text-center my-5'>My motto is to learn, inovate and build</p>
@@ -96,15 +96,15 @@ const App = () => {
 
       <div className='my-10 p-10 rounded-2xl shadow-black shadow-xl m-auto text-Poppins lg:text-xl text-purple bg-black sm:text-sm'>
         1. So Much Cruise in This.
-        <p>A website that provides snippets for artiste and movie makers. These snippets can be purchased at request and have modifications carried out on them.Thw quality of the beats are authenthic and up to standard(.wav) with stems available also.</p>
+        <p>A website that provides snippets for artiste and movie makers. These snippets can be purchased at request and have modifications carried out on them.The quality of the beats are authenthic and up to standard(.wav) with stems available also.</p>
       </div>
       <div className=' my-10 p-10 rounded-2xl shadow-black shadow-xl m-auto text-Poppins lg:text-xl text-white bg-black sm:text-sm'>
         2. BookMe.
-        <p>A platform that provides an avenue for patients to book medical appoinments digitally.It provides services such as clinic and doctor name and time and choice of appointment.</p>
+        <p>A platform that provides an avenue for patients to book medical appoinments digitally.It provides services such as clinic, doctor name and choice and time and of appointment.</p>
       </div>
       <div className=' my-10 p-10 rounded-2xl shadow-black shadow-xl m-auto text-Poppins lg:text-xl text-green bg-black sm:text-sm'>
         3. Connorssiuer Realty.
-        <p>A website that provides the details of a realty company to connect and educate potentials constomers on the company and necessary information.</p>
+        <p>A website that provides the details of a realty company to connect and educate potential customers about the firm and necessary information.</p>
       </div>
     </div>
    
