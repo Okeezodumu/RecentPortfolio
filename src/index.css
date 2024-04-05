@@ -11,10 +11,10 @@
   }
 
 body{
-    background-image: url(../Vector\ 6.png);
+    /* background-image: url(../Vector\ 6.png);
     background-repeat: no-repeat;
-    background-size:cover;
-  
+    background-size:cover; */
+  background-color: #ffc82c;
 }
 font{
     color:rgb(207, 204, 204);
