@@ -111,8 +111,8 @@ const App = () => {
         <p>A website that provides the details of a realty company to connect and educate potential customers about the firm and necessary information.</p>
       </div>
       <div className=' my-10 p-10 rounded-2xl shadow-black shadow-xl m-auto text-Poppins lg:text-xl text-blue bg-black sm:text-sm'>
-        4. Data cleaning, Migration, Preprocessing, Manipulation and Prediction.
-        <p>At CHM, I carried out projects involving data nalysis using SQL nd Python with frameworks such as tensor flow. Also projects involving forcasting using prophets were carried out.</p>
+        4. Machine Learning:Data cleaning, Migration, Preprocessing, Manipulation and Prediction.
+        <p>At CHM, I carried out projects involving data analysis using SQL and Python with frameworks such as tensor flow. Also projects involving forcasting using prophet were carried out with visualization using matplotlib.</p>
       </div>
       <div className=' my-10 p-10 rounded-2xl shadow-black shadow-xl m-auto text-Poppins lg:text-xl text-white bg-black sm:text-sm'>
         5. Natural language Processing.
